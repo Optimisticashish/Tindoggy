@@ -1,0 +1,170 @@
+body {
+  font-family: "Montserrat";
+}
+
+#title {
+  background-color: #644e5b;
+  color: #fff;
+}
+
+h1 {
+  font-family: "Montserrat";
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+h2 {
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+h3 {
+  font-family: "Montserrat";
+  font-weight: 700;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+/* navbar */
+.navbar {
+  background-color: #f3d250;
+  margin: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+.nav-link {
+  font-family: "Montserrat";
+  font-weight: 400;
+  font-size: 1.2rem;
+}
+
+.nav-item {
+  padding: 0 8px;
+}
+
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+
+/* .name-heading{
+  margin:6% 0 0 0;
+} */
+.title-image {
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+}
+
+/*feature*/
+#features {
+  padding: 7% 15%;
+  background-color: #fff;
+  position: relative;
+}
+
+.feature-box {
+  text-align: center;
+}
+
+/* button */
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+.icon {
+  color: #98798C;
+  margin-bottom: 1.5rem;
+}
+
+.icon:hover {
+  color: #644e5b;
+}
+
+/* testimonials */
+#testimonials {
+  text-align: center;
+  background-color: #98798C;
+  color: #fff;
+}
+
+.testimonials-image {
+  width: 15%;
+  border-radius: 100%;
+  margin: 25px;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+/* press */
+#press {
+  background-color: #98798C;
+  text-align: center;
+  padding: 2%;
+  margin-top: 1%;
+}
+
+.press-logo {
+  width: 12%;
+  margin: 20px 20px 50px;
+}
+
+/* pricing */
+#pricing {
+  text-align: center;
+  padding: 100px;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+.sen {
+  color: #644e5b;
+}
+
+/* Call to Action  */
+#cta {
+  background-color: #644e5b;
+  text-align: center;
+  padding: 4% 15%;
+  color: #fff;
+}
+
+/* footer section */
+#footer {
+  padding: 7% 15%;
+  text-align: center;
+}
+
+.social-icon {
+  margin: 20px 10px;
+  color: #98798C;
+}
+
+.social-icon:hover {
+  color: #644e5b;
+}
+
+/* media query */
+@media (max-width:1028px) {
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+}
